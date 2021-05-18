@@ -11,7 +11,7 @@ function test() {
 const citation = ["lorem", "ipsum", "dolor", "blabla", "blablablabla"];
 const randomCitation = citation[Math.floor(Math.random() * citation.length)];
 // console.log(randomCitation);
-
+// Ceci est un test
 const div=document.createElement("div");
 // div.innerHTML= '<h1>' + randomCitation+"</h1>";
 div.innerHTML='<h1>'+randomCitation+'</h1>';
